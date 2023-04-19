@@ -166,22 +166,22 @@ public class LibroController {
 
 Cuando se ejecuta la API se muestra la siguiente salida en consola.
 
-![[Pasted image 20230419155029.png]]
+![Estado en consola](/Imagenes/1.png)
 
 Posteriormente se realiza una petición a la API para obtener todos los libros existentes en la ruta "/libros".
 
-![[Pasted image 20230419155204.png]]
+![Peticion all](/Imagenes/2.png)
 
 En la siguiente imagen se muestra la petición realizada en la terminal.
 
-![[Pasted image 20230419155302.png]]
+![Peticion all en consola](/Imagenes/3.png)
 
 <p align="justify">
 Para generar un fallo se realiza una petición a la ruta "/libros/first" que, al no contar la lista con un ningún libro, este método deberá fallar, razón por la cual se le ofrece un camino alternativo.
 </p>
 
 
-![[Pasted image 20230419155428.png]]
+![Erroe en obtener primero](/Imagenes/4.png)
 
 
 ### Conclusión
